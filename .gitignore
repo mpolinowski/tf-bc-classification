@@ -1,0 +1,6 @@
+_bak
+dataset
+.ipynb_checkpoints
+utils/__pycache__
+output/custom_weights.hdf5
+output/resnet50_weights.hdf5
