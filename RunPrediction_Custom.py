@@ -1,4 +1,3 @@
-from tensorflow.keras.applications.resnet50 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 from utils import config
@@ -17,8 +16,8 @@ model = load_model(modelPath)
 
 
 # Test image
-imagePath ="./sample_pictures/malignant.png"
-# imagePath =  "./sample_pictures/benign.png"
+# imagePath ="./sample_pictures/malignant.png"
+imagePath =  "./sample_pictures/benign.png"
 
 # Loading the input image using openCV
 image = cv2.imread(imagePath)
